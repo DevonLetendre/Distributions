@@ -17,7 +17,7 @@ class Distribution:
 		self.slider_end = 0
 
 	def _numevent(self, e):
-		#Factotred out repetition
+		#Factotred out repetition.
 		return self.dict[e][1] - self.dict[e][0] + 1
 
 	def add(self, e, multiplicity = 1):
@@ -69,7 +69,7 @@ class Distribution:
 	
 	def _modified_bs(self, rand):
 		'''
-		A modified binary search
+		A modified binary search.
 		'''
 		left = 0 
 		right = len(self._L)
